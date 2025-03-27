@@ -1,14 +1,16 @@
 package co.edu.uniquindio.gestionempleadofx.gestionempleadofx.model;
 
-import co.edu.uniquindio.GestionEmpleados.services.IContribuyente;
+import co.edu.uniquindio.gestionempleadofx.gestionempleadofx.services.*;
+
+import co.edu.uniquindio.gestionempleadofx.gestionempleadofx.model.builder.EmpleadoBuilder;
 
 public class Empleado implements IContribuyente {
     private String nombre;
     private String id;
     private Proyecto proyectoAsociado;
     public Empleado() {}
-    Empleado(String nombre, String id,
-             Proyecto proyectoAsociado) {
+    public Empleado(String nombre, String id,
+                    Proyecto proyectoAsociado) {
         this.nombre = nombre;
         this.id = id;
         this.proyectoAsociado = proyectoAsociado;

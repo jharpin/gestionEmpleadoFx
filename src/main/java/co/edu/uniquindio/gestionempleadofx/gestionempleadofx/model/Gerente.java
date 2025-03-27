@@ -1,6 +1,6 @@
 package co.edu.uniquindio.gestionempleadofx.gestionempleadofx.model;
 
-import co.edu.uniquindio.GestionEmpleados.services.IProyectoCrud;
+import co.edu.uniquindio.gestionempleadofx.gestionempleadofx.services.*;
 
 public class Gerente extends Empleado {
     private Departamento departamentoAsociado;

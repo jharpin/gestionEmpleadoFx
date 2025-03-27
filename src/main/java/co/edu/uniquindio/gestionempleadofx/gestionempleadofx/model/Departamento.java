@@ -1,6 +1,6 @@
 package co.edu.uniquindio.gestionempleadofx.gestionempleadofx.model;
 
-import co.edu.uniquindio.GestionEmpleados.services.ITecnicoCrud;
+import co.edu.uniquindio.gestionempleadofx.gestionempleadofx.services.*;
 
 import java.util.ArrayList;
 

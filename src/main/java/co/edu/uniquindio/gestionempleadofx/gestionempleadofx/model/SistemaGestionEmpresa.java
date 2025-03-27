@@ -1,5 +1,7 @@
 package co.edu.uniquindio.gestionempleadofx.gestionempleadofx.model;
-import co.edu.uniquindio.GestionEmpleados.services.*;
+
+import co.edu.uniquindio.gestionempleadofx.gestionempleadofx.services.*;
+import co.edu.uniquindio.gestionempleadofx.gestionempleadofx.model.builder.EmpleadoBuilder;
 
 import java.util.ArrayList;
 import java.util.Collections;
