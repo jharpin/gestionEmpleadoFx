@@ -8,6 +8,7 @@ public class ModelFactory implements ImodelFactoryServices{
     /// inicializacion de los objetos
     private static ModelFactory modelFactory;
     private SistemaGestionEmpresa  sistemaGestionEmpresa;
+    private Iempleadomapping mapper;
 
     private ModelFactory(){
         inicializarDatos();
